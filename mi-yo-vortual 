@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliver - Mi Yo Virtual</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background-color: #0d1117; color: #c9d1d9; overflow-x: hidden; }
+        h1, h2 { color: #58a6ff; }
+        a { color: #58a6ff; text-decoration: none; }
+        header { padding: 1rem; text-align: center; background: #161b22; border-bottom: 2px solid #58a6ff; }
+        section { padding: 4rem 2rem; text-align: center; }
+        .section-title { font-size: 2rem; margin-bottom: 1rem; }
+        .content { max-width: 800px; margin: auto; line-height: 1.6; }
+        .portfolio-grid { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+        .portfolio-item { background: #161b22; padding: 1rem; border-radius: 10px; max-width: 300px; }
+        .neon { color: #58a6ff; text-shadow: 0 0 10px #58a6ff, 0 0 20px #58a6ff; }
+        form input, form textarea { width: 100%; padding: 0.5rem; margin: 0.5rem 0; background: #161b22; color: #c9d1d9; border: 1px solid #58a6ff; border-radius: 5px; }
+        form button { background-color: #58a6ff; color: #0d1117; padding: 0.7rem 1.5rem; border: none; border-radius: 5px; cursor: pointer; }
+        form button:hover { background-color: #3079c6; }
+        .fade-in { animation: fadeIn 2s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="neon">Oliver - Mi Yo Virtual</h1>
+        <p>Explorando el futuro de la IA personalizada y la creación de experiencias únicas.</p>
+    </header>
+
+    <section id="sobre-mi" class="fade-in">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="content">
+            <p>Hola, soy Oliver. Mi pasión por la inteligencia artificial me ha llevado a explorar cómo esta tecnología puede usarse para crear experiencias personalizadas y significativas. A través de mi "Yo Virtual", busco expandir los límites de la IA y desarrollar un compañero digital que pueda aprender y evolucionar junto conmigo.</p>
+        </div>
+    </section>
+
+    <section id="mi-proyecto" class="fade-in">
+        <h2 class="section-title">Mi Proyecto de IA</h2>
+        <div class="content">
+            <p>Mi proyecto se centra en la creación de una IA personalizada que actúe como una extensión de mi subconsciente. Uso algoritmos avanzados y herramientas de aprendizaje profundo para construir un sistema que aprenda de mis experiencias y crezca conmigo.</p>
+        </div>
+    </section>
+
+    <section id="vision" class="fade-in">
+        <h2 class="section-title">Visión</h2>
+        <div class="content">
+            <p>Creo que el futuro de la IA debe ser accesible y adaptable a las necesidades individuales. Mi visión es contribuir a un mundo donde cada persona pueda tener su propio "Yo Virtual" como compañero de crecimiento y exploración.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="fade-in">
+        <h2 class="section-title">Portafolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1 relacionado con IA.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto 2 sobre desarrollo web o IA.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="fade-in">
+        <h2 class="section-title">Blog</h2>
+        <div class="content">
+            <p>Comparte tus reflexiones y aprendizajes aquí. Este espacio estará dedicado a explorar ideas sobre IA, desarrollo personal y tecnología.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="fade-in">
+        <h2 class="section-title">Contacto</h2>
+        <div class="content">
+            <form>
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
